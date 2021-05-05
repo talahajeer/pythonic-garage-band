@@ -113,10 +113,10 @@ def test_play_solos_for_whole_band(one_band):
     assert solos[2] == "rattle boom crash"
 
 
-# def test_to_list():
-#     assert Band.to_list() == []
-#     Band("The Nobodies", [])
-#     assert len(Band.to_list()) == 1
+def test_to_list():
+    assert Band.to_list() == []
+    Band("The Nobodies", [])
+    assert len(Band.to_list()) == 1
 
 
 # #######################
